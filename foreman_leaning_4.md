@@ -7,7 +7,6 @@
 
 之前讲的all-in-one方式建议只用于测试使用，如果要用于生产环境，建议将foreman和puppetmaster分离安装，更有利于后期的维护和扩展。还有就是之前你已经部署过puppetmaster了，如何单独部署foreman和puppetmaster通信也是值得考虑的问题。
 
-<!--more-->
 
 
 ## 1、软件包的选型如下： ##
