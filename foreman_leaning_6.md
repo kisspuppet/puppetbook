@@ -8,7 +8,7 @@
 
 # 1、首先要保证智能代理已经代理了puppet和puppet CA #
 
-![Foreman安装](/img/foreman06-1.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-1.png)
 
 代理puppet以及puppetCA，需要在foreman-proxy中开启。
 
@@ -89,7 +89,7 @@ puppet从2.6版本开始增加了“目录环境”的功能，更多详情请�
 
 ## 2.2、foreman上导入puppet环境 ##
 
-![Foreman安装](/img/foreman06-2.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-2.png)
 
 
 # 3、管理puppet类 #
@@ -168,14 +168,14 @@ puppet从2.6版本开始增加了“目录环境”的功能，更多详情请�
 
 ## 3.2、Foreman上导入puppet类 ##
 
-![Foreman安装](/img/foreman06-3.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-3.png)
 
 
 # 4、设置ENC #
 
 ## 4.1、通过节点直接管理模块 ##
 
-![Foreman安装](/img/foreman06-4.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-4.png)
 
 **备注：**添加主类就可以了
 
@@ -187,9 +187,9 @@ node  puppetmaster162.kisspuppet.com{
 
 ## 4.2、通过组继承模块 ##
 
-![Foreman安装](/img/foreman06-5.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-5.png)
 
-![Foreman安装](/img/foreman06-6.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-6.png)
 
 **备注：**如果使用组管理模块，不建议为某个节点单独勾选模块，否则你会发现如果先给节点添加了模块A，然后再给节点对应的组里添加了模块A，那么节点的puppet类哪里就会显示包含的类有两个同名的模块。
 
@@ -199,14 +199,14 @@ node  puppetmaster162.kisspuppet.com{
 
 **注：**foreman从1.5版本开始增加了“配置组”功能，可以将多个模块添加到“配置组”，然后给配置组命名，这样，主机组在勾选模块的时候，只需要勾选配置组即可集成里面所有的模块
 
-![Foreman安装](/img/foreman06-7.png)
-![Foreman安装](/img/foreman06-8.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-7.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-8.png)
 
 # 6、查看设置是否成功 #
 
-![Foreman安装](/img/foreman06-9.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-9.png)
 
-![Foreman安装](/img/foreman06-10.png)
+![Foreman安装](http://kisspuppet.com/img/foreman06-10.png)
 
 	#可以通过以下方式查看，前提是需要先运行node.rb，可通过"puppet agent"命令或者"node.rb  <certname>" 进行触发。
 	[root@puppetmaster162 ~]# cat /var/lib/puppet/yaml/foreman/puppetmaster162.kisspuppet.com.yaml 
