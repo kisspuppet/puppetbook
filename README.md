@@ -26,7 +26,7 @@
 #### 小额赞助
 赞助方式是绝对赤裸裸的金钱赞助方式：如果您有支付宝，可以直接使用小额付款。
 
-![微信公众号](http://kisspuppet.com/img/support_3.jpg)
+![微信公众号](http://kisspuppet.com/img/support_4.jpg)
 
 
 #### 交流方式
