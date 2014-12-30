@@ -1,6 +1,6 @@
 ## 前言
 
-本书电子版阅读地址：[http://kisspuppet.gitbooks.io/puppet/](http://kisspuppet.gitbooks.io/puppet/)
+本书电子版在线阅读地址：[http://kisspuppet.gitbooks.io/puppet/](http://kisspuppet.gitbooks.io/puppet/)
 
 #### 为什么要写本书
 “循环调用SSH命令不是一个我能接受的解决方案。”
@@ -19,7 +19,7 @@
 
 
 #### 结束语
-#### version:  0.0.01
+#### version:  0.0.02
 
 
 「本书结合个人日常运维经验所写，版权归我本人所有,书中主要以实战为主，概念部分相对比较少，我会在后续的版本更新中逐渐完善本书。」
