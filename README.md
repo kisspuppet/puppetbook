@@ -15,6 +15,7 @@
 由于作者的水平有限，加之编写时间仓促，书中难免会出现一些错误或者不准确的地方，恳请读者批评指正。有任何问题可以在我的个人博客（[http://www.kisspuppet.com](http://www.kisspuppet.com)）文章后留言或在puppet中文社区（[http://puppetmaster.cn](http://puppetmaster.cn)）提问，我一定会在第一时间内给予解答。
 
 
+
 #### 结束语
 #### version:  0.0.01
 
