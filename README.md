@@ -1,5 +1,7 @@
 ## 前言
 
+本书电子版阅读地址：[http://kisspuppet.gitbooks.io/puppet/](http://kisspuppet.gitbooks.io/puppet/)
+
 #### 为什么要写本书
 “循环调用SSH命令不是一个我能接受的解决方案。”
 ---Luke Kanies, Puppet开发者
